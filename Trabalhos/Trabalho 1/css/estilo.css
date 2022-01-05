@@ -1,0 +1,186 @@
+
+
+body {
+	width: 700px;
+	margin: 15px auto;
+	font-family: Arial, "MS Trebuchet", sans-serif;
+	background-color: #e6e6e6;
+}
+
+nav {
+	width: 100%;
+	height: 68px;
+	float: left;
+	background-color: #1f2350;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+nav li {
+	border-left: 1px solid rgba(255, 255, 255, 0.3);
+	border-right: 1px solid rgba(0, 0, 0, 0.3);
+	margin-top: -15px;
+	padding-right: 30px;
+	margin-left: 1px;
+	width: 123px;
+	height: 68px;
+}
+
+nav li:first-child {
+	border-left: none;
+}
+
+nav li:last-child {
+	border-right: none;
+}
+
+nav ul li {
+	float: left;
+	list-style: none;
+}
+
+nav ul li a {
+	display: inline-block;
+	padding: 30px;
+	width: 140px;
+	font-size: 16px;
+	line-height: 44px;
+	text-align: left;
+	margin-top: -25px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.current {
+	color: #3366FF;
+}
+
+h1 {
+	color: black;
+	width: 100%;
+	border-bottom-style: solid;
+}
+
+h2.sub,
+h3.sub {
+	color: #673ab7;
+	width: 100%;
+	border-bottom-style: solid;
+}
+
+p.sub {
+	font-weight: bold;
+	color: brown;
+	border-bottom-style: solid;
+}
+
+table {
+	width: 100%;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+table tr {
+	border: 1px solid black;
+}
+
+table td,
+table th {
+	border: 1px solid black;
+	padding: 8px;
+}
+
+table th {
+	text-align: left;
+}
+
+table thead th,
+table tbody th {
+	background-color: #cccccc;
+	font-weight: lighter;
+	padding: 5px;
+}
+
+.grupo:before,
+.grupo:after {
+	content: " ";
+	display: table;
+}
+
+.grupo:after {
+	clear: both;
+}
+
+.campo {
+	margin-bottom: 1em;
+}
+
+.campo label {
+	margin-bottom: 0.2em;
+	color: #666;
+	display: block;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo input[type="url"],
+.campo input[type="tel"],
+.campo select,
+.campo textarea {
+	padding: 0.2em;
+	border: 1px solid #CCC;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+	display: block;
+}
+
+.campo select option {
+	padding-right: 1em;
+}
+
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+	background: #FFC;
+}
+
+footer {
+	width: 100%;
+	height: 106px;
+	background-color: #1f2350;
+	color: #fff;
+	text-align: center;
+	font-size: 12px;
+	font-family: arial;
+	font-weight: bold;
+	margin-top: 0px;
+}
+
+.by {
+	padding-bottom: 10px;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+img.cabecalho {
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: -4px;
+}
+
+img.img1 {
+	width: 450px;
+	;
+	margin-top: -10px;
+}
+
+.conteudo {
+	background-color: #fff;
+	border-width: medium;
+	border-style: solid;
+	border-color: #000;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+}
+

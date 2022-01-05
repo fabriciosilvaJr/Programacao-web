@@ -1,0 +1,57 @@
+
+
+body {
+	width: 900px;
+	margin: 15px auto;
+	font-family: Arial, "MS Trebuchet", sans-serif;
+}
+
+h1 {
+	color: black;
+	width: 100%;
+	border-bottom-style: solid;
+}
+
+p.sub {
+	font-weight: bold;
+}
+
+table {
+	width: 100%;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+table tr {
+	border: 1px solid black;
+}
+
+table th {
+	border: 1px solid black;
+	padding: 8px;
+}
+
+table.color1 th {
+	color: #fff;
+}
+
+table.color2 th {
+	color: #aee1e4;
+}
+
+table.color3 th {
+	color: blue;
+}
+
+table.color4 th {
+	color: #f9ef6b;
+}
+
+table.color5 th {
+	color: red;
+}
+
+table.color6 th {
+	color: #E49DE4;
+}
+

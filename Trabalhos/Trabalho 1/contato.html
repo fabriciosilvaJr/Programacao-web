@@ -1,0 +1,67 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <!-- Codificacao da Pagina -->
+      <meta charset="UTF-8">
+      <!-- Folha de Estilo -->
+      <link rel="stylesheet" type="text/css" href="css/estilo.css">
+      <!-- Titulo da pagina -->
+      <title> Contato </title>
+   </head>
+   <body>
+      <!-- Corpo da Pagina -->
+      <header>
+         <img src='imagens/bg.jpg' class="cabecalho"  >
+         <nav>
+            <ul>
+               <li><a href="home.html">Home</a></li>
+               <li><a href="css.html">CSS</a></li>
+               <li><a href="#">Arquivo</a></li>
+               <li><a href="contato.html" class="current">Contato</a></li>
+            </ul>
+         </nav>
+      </header>
+      <div class ="conteudo">
+         <div id= 'formulario'>
+            <section>
+               <article>
+                  <h2 >       Formulário de Contato </h2>
+                  <form method= "post" action='#'>
+                     <fieldset class="grupo">
+                        <div class="campo">
+                           <label for=  "nome" >  Nome:   </label>
+                           <input type="text" id= "nome"  name="nome" style="width: 20em"/> <br />
+                        </div>
+                        <div class="campo">
+                           <label for="email">E-mail:</label>
+                           <input type="text" id="email" name="email" style="width: 20em" value="" />
+                        </div>
+                        <div class="campo">
+                           <label for="Telefone">Telefone:</label>
+                           <input type="text" id="telefone" name="telefone" style="width: 20em" value="" />
+                        </div>
+                        <div class="campo">
+                           <label for="assunto" >   Assunto:   </label>
+                           <input type="text" id="assunto"  name="assunto" style="width: 20em"  /> <br/>
+                        </div>
+                        <div class="campo">
+                           <label for="mensagem">Mensagem:</label>
+                           <textarea rows="6" style="width: 20em" id="mensagem" name="mensagem"></textarea>
+                        </div>
+                        <button type="submit" name="submit">Enviar</button>
+                     </fieldset>
+                  </form>
+               </article>
+            </section>
+         </div>
+      </div>
+      <footer>
+         <div class='by'>
+            &copy; 2018 – Fabrício Silva. Todos os direitos reservados
+         </div>
+      </footer>
+   </body>
+</html>
+
